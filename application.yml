@@ -12,6 +12,7 @@ plugins:
       - MUSIC
       - ANDROID_TESTSUITE
       - WEB
+      - TV_EMBEDDED
     oauth:
       enabled: true
       refreshToken: ${YOUTUBE_REFRESH_TOKEN:}
@@ -35,10 +36,10 @@ plugins:
 
 lavalink:
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.0"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.1"
       repository: "https://maven.lavalink.dev/releases"
       snapshot: false
-    - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.4.1"
+    - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.8.2"
       repository: "https://maven.lavalink.dev/releases"
       snapshot: false
   server:
