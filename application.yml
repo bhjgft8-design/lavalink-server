@@ -11,7 +11,13 @@ plugins:
     clients:
       - MUSIC
       - WEB
-      - IOS
+      - WEBEMBEDDED
+      - ANDROID_MUSIC
+      - TVHTML5_SIMPLY
+    ANDROID_MUSIC:
+      videoLoading: true
+      searching: true
+      playback: true
     oauth:
       enabled: true
       refreshToken: ${YOUTUBE_REFRESH_TOKEN:}
